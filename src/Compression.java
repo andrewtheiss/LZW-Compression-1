@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 
 public class Compression {
-	
+	 
 	private HashMap<String, Integer> table = new HashMap<String, Integer>();
 	
 	public Compression () {
