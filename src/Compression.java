@@ -18,6 +18,7 @@ public class Compression {
 		for (int i = 0; i<256; i++) {
 			table.put( "" + (char)i , i);
 		}
+		
 	}
 	@SuppressWarnings("deprecation")
 	public void compress (String inputFileName) throws IOException {
